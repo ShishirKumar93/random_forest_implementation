@@ -1,11 +1,11 @@
 # random_forest_implementation
 Python implementation from scratch - Random Forest
 
-Here, we implement random forests with boostrapping. We create random forests by calling upon DecisionTree class built in one of the previous projects. In the file dtree.py, we have the following functionalities: 
+Here, I have implemented random forests with boostrapping. I created random forests by calling upon DecisionTree class built in one of my previous projects. The file dtree.py has the following functionalities: 
 
 1) DecisionNode : class that defines a decision node.
 2) LeafNode : class that defines leaves of the tree.
-3) bestsplit : function that gives the best split point using gini / MSE criteria. We select a subset of features and randomly choose 11 datapoints from these features to find the best split point. This increases the speed of our algorithm greatly.
+3) bestsplit : function that gives the best split point using gini / MSE criteria. I selected a subset of features and randomly choose 11 datapoints from these features to find the best split point. This increases the speed of our algorithm greatly.
 4) DecisionTree : class that constructs the decision tree recursively, using the best split point obtained from bestsplit function.
 5) RegressionTree621 / ClassifierTree621 : classes built upon DecisionTree class that encapsulate functionalities like fit(), predict() etc.
 
